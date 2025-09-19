@@ -128,7 +128,7 @@ const NewBron = () => {
                     <div className='bg-white max-w-[66%] rounded-2xl p-[20px]'>
                         <p className='font-semibold text-2xl'>Выберите номер</p>
                         <div className='grid grid-cols-4 gap-[20px] mt-[20px] text-[13px]'>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -137,7 +137,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -146,7 +146,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -155,7 +155,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -164,7 +164,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -173,7 +173,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -182,7 +182,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -191,7 +191,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -200,7 +200,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -209,7 +209,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -218,7 +218,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -227,7 +227,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -236,7 +236,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -245,7 +245,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -254,7 +254,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
@@ -263,7 +263,7 @@ const NewBron = () => {
                                     <button className='bg-[#005456] w-full mt-[10px] text-white rounded p-[10px]'>Забронировать</button>
                                 </div>
                             </div>
-                            <div className='bg-[#F5F7FA] p-[10px] rounded'>
+                            <div className='bg-[#F5F7FA] p-[10px] rounded-2xl'>
                                 <img src={img5} alt="" className='w-full' draggable={false} />
                                 <div className='p-[10px]'>
                                     <p className='flex justify-between'>Номер <span className='font-bold'>Люкс 145</span></p>
