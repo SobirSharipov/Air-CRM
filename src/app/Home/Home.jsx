@@ -8,6 +8,7 @@ import MenuItem from '@mui/material/MenuItem'
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import { Link } from 'react-router'
+import Profile from '../../component/profile'
 
 const Home = () => {
     return (
@@ -31,39 +32,20 @@ const Home = () => {
 
                     <p>Все брони</p>
                 </div>
-                <div className='flex gap-[10px]'>
-                    <button className='bg-[#005456] text-white p-[5px] px-[10px] rounded'>
+                <div className='flex items-center gap-[10px]'>
+                    <button className='bg-[#005456] text-white p-[5px] px-[10px] rounded cursor-pointer'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
                         </svg>
                     </button>
-                    <button className='bg-[#005456] text-white p-[5px] px-[10px] rounded'>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                        </svg>
-                    </button>
+                   <Profile bgcolor={"#005456"} color={"white"}/>
                 </div>
             </div>
 
-            <Card />
-
-            <div className='flex text-[12px] font-semibold  gap-[5px] bg-white p-[20px] mx-[20px] rounded-2xl'>
-                <Link to={'/'} className='flex items-center  bg-[#005456] text-white p-[5px] px-[15px] rounded'>
-                <button className='flex gap-2'>Все <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-                </Link>
-                <button className='flex items-center gap-[10px] bg-[#005456] text-white p-[5px] px-[15px] rounded'>Новые <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-                <Link to="/residents" className='flex items-center gap-[10px] bg-[#E1EFFE] text-black p-[5px] px-[15px] rounded'>
-                    <button className='flex gap-2'>Проживающие <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-                </Link>
-                <button className='flex items-center gap-[10px] bg-[#DEF7EC] text-black p-[5px] px-[15px] rounded'>Ожидают заселения <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-                <button className='flex items-center gap-[10px] bg-[#6B7280] text-white p-[5px] px-[15px] rounded'>Ожидают выселения <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-                <button className='flex items-center gap-[10px] bg-[#FEECDC] text-black p-[5px] px-[15px] rounded'>Не оплачено <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-                <button className='flex items-center gap-[10px] bg-[#FDE8E8] text-black p-[5px] px-[15px] rounded'>Выехали <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-                <button className='flex items-center gap-[10px] bg-[#FCD9BD] text-black p-[5px] px-[15px] rounded'>Отменено <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-            </div>
+            <Card color={"#E1EFFE"} col={"#FCD9BD"} />
 
             <div className='bg-white m-[20px] p-[20px] rounded-2xl'>
-                
+
                 <div className='flex justify-between items-center py-[10px]'>
                     <div className='flex gap-[10px] items-center w-[40%]'>
                         <div className='flex items-center gap-[10px] px-[10px] border border-gray-400 w-[80%] rounded '>
