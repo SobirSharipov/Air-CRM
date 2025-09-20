@@ -5,15 +5,15 @@ import Layout from './app/layout/layout'
 import Patients from './app/Patients/Patients'
 import Numbers from './app/Numbers/Numbers'
 import Calendar from './app/Calendar/Calendar'
-import NewBron from './app/newBron/newBron'
 import Residents from './app/Residents/Residents'
-import NewNumber from './app/newNumber/newNumber'
-import Editnumber from './app/Editnumber/Editnumber'
+import NewNumber from './app/New Number/newNumber'
+import Editnumber from './app/Edit number/Editnumber'
 import Applyplans from './app/Applyplans/Applyplans'
 import Applyfields from './app/Applyfields/Applyfields'
 import Listpatients from './app/Listpatients/Listpatients'
 import Newentry from './app/New entry/Newentry'
 import Info from './app/Info/info'
+import Newbooking from './app/New booking/newbooking'
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
           <Route path="patients" element={<Patients />} />
           <Route path="numbers" element={<Numbers />} />
           <Route path="calendar" element={<Calendar />} />
-          <Route path="newBron" element={<NewBron />} />
+          <Route path="newbooking" element={<Newbooking />} />
           <Route path="residents" element={<Residents />} />
           <Route path="newNumber" element={<NewNumber />} />
           <Route path="Editnumber" element={<Editnumber />} />

@@ -6,7 +6,7 @@ import MenuItem from '@mui/material/MenuItem'
 import TextField from '@mui/material/TextField'
 import Profile from '../../component/profile'
 
-const NewBron = () => {
+const Newbooking = () => {
     const today = new Date().toISOString().split('T')[0];
     return (
         <div className='bg-[#F5F7FA]  w-full'>
@@ -443,4 +443,4 @@ const NewBron = () => {
     )
 }
 
-export default NewBron
+export default Newbooking

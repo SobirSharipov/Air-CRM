@@ -65,7 +65,7 @@ const Card = ({ color, text, col }) => {
                     </div>
                 </div>
 
-                <Link to="/newBron" className='bg-white rounded-2xl cursor-pointer font-semibold text-[15px] flex flex-col justify-center p-[10px] gap-[10px]'>
+                <Link to="/Newbooking" className='bg-white rounded-2xl cursor-pointer font-semibold text-[15px] flex flex-col justify-center p-[10px] gap-[10px]'>
                     <p>Новое бронирование</p>
                     <p className='text-[50px] font-black mx-[20px]'>+</p>
                 </Link>
