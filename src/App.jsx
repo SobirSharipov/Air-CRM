@@ -6,14 +6,14 @@ import Patients from './app/Patients/Patients'
 import Numbers from './app/Numbers/Numbers'
 import Calendar from './app/Calendar/Calendar'
 import Residents from './app/Residents/Residents'
-import NewNumber from './app/New Number/newNumber'
-import Editnumber from './app/Edit number/Editnumber'
+import NewNumber from './app/New_Number/newNumber'
+import Editnumber from './app/Edit_number/Editnumber'
 import Applyplans from './app/Applyplans/Applyplans'
 import Applyfields from './app/Applyfields/Applyfields'
 import Listpatients from './app/Listpatients/Listpatients'
 import Newentry from './app/New entry/Newentry'
 import Info from './app/Info/info'
-import Newbooking from './app/New booking/newbooking'
+import Newbooking from './app/New_booking/newbooking'
 
 const App = () => {
   return (
