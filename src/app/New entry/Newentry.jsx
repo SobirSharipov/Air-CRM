@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import imguser from '../../assets/img1 (18).png'
 import TextField from '@mui/material/TextField'
 import MenuItem from '@mui/material/MenuItem'
-import Profile from '../../component/profile'
+import Profile from '../../components/profile'
 
 const Newentry = () => {
     return (

@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from '../../component/card'
+import Card from '../../components/card'
 import img2 from '../../assets/img1 (13).png'
 import img4 from '../../assets/img1 (15).png'
 import img5 from '../../assets/img1 (17).png'
 import TextField from '@mui/material/TextField'
 import MenuItem from '@mui/material/MenuItem'
-import Profile from '../../component/profile'
+import Profile from '../../components/profile'
 
 const Residents = () => {
     return (

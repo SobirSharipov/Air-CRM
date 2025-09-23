@@ -1,8 +1,8 @@
 import React from 'react'
-import Cog from '../../component/Cog'
+import Cog from '../../components/Cog'
 import TextField from '@mui/material/TextField'
 import MenuItem from '@mui/material/MenuItem'
-import Profile from '../../component/profile'
+import Profile from '../../components/profile'
 
 const Applyplans = () => {
   return (
@@ -40,7 +40,7 @@ const Applyplans = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
             </svg>
           </button>
-         <Profile bgcolor={"white"} color={"#005456"} />
+          <Profile bgcolor={"white"} color={"#005456"} />
         </div>
       </div>
 
@@ -54,11 +54,11 @@ const Applyplans = () => {
               label="Тариф"
               defaultValue="standard"
               fullWidth
-                sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "15px", padding: "8px" },
-                            }}
+              sx={{
+                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                "& .MuiInputLabel-root": { fontSize: "15px" },
+                "& input": { fontSize: "15px", padding: "8px" },
+              }}
             >
               <MenuItem value="standard">Стандарт</MenuItem>
               <MenuItem value="premium">Премиум</MenuItem>
@@ -87,11 +87,11 @@ const Applyplans = () => {
                 type="time"
                 defaultValue="08:00"
                 fullWidth
-                  sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "15px", padding: "8px" },
-                            }}
+                sx={{
+                  "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                  "& .MuiInputLabel-root": { fontSize: "15px" },
+                  "& input": { fontSize: "15px", padding: "8px" },
+                }}
                 InputLabelProps={{
                   shrink: true,
                 }}
@@ -106,11 +106,11 @@ const Applyplans = () => {
                 type="time"
                 defaultValue="08:00"
                 fullWidth
-                  sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "15px", padding: "8px" },
-                            }}
+                sx={{
+                  "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                  "& .MuiInputLabel-root": { fontSize: "15px" },
+                  "& input": { fontSize: "15px", padding: "8px" },
+                }}
                 InputLabelProps={{
                   shrink: true,
                 }}
@@ -130,25 +130,25 @@ const Applyplans = () => {
                   defaultValue="250"
                   type="text"
                   fullWidth
-                    sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "15px", padding: "8px" },
-                            }}
+                  sx={{
+                    "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                    "& .MuiInputLabel-root": { fontSize: "15px" },
+                    "& input": { fontSize: "15px", padding: "8px" },
+                  }}
                 />
               </div>
               <div className='w-[50%]'>
-                 <TextField
+                <TextField
                   label="Стоимость для инстранных граждан"
                   variant="outlined"
                   defaultValue="350"
                   type="text"
                   fullWidth
-                    sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "15px", padding: "8px" },
-                            }}
+                  sx={{
+                    "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                    "& .MuiInputLabel-root": { fontSize: "15px" },
+                    "& input": { fontSize: "15px", padding: "8px" },
+                  }}
                 />
               </div>
             </div>
@@ -160,11 +160,11 @@ const Applyplans = () => {
               label="Периодичность уборки"
               defaultValue="standard"
               fullWidth
-                sx={{
-                                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
-                                "& .MuiInputLabel-root": { fontSize: "15px" },
-                                "& input": { fontSize: "15px", padding: "8px" },
-                            }}
+              sx={{
+                "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "50px" },
+                "& .MuiInputLabel-root": { fontSize: "15px" },
+                "& input": { fontSize: "15px", padding: "8px" },
+              }}
             >
               <MenuItem value="standard">Ежедневно</MenuItem>
               <MenuItem value="premium">Премиум</MenuItem>
@@ -178,7 +178,7 @@ const Applyplans = () => {
         </div>
 
       </div>
-      
+
     </div>
   )
 }

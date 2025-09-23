@@ -4,7 +4,7 @@ import MenuItem from '@mui/material/MenuItem'
 import Stack from '@mui/material/Stack'
 import Pagination from '@mui/material/Pagination'
 import { Link } from 'react-router'
-import Profile from '../../component/profile'
+import Profile from '../../components/profile'
 
 const Patients = () => {
   return (

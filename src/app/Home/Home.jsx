@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Card from '../../component/card'
+import Card from '../../components/card'
 import img2 from '../../assets/img1 (13).png'
 import img3 from '../../assets/img1 (14).png'
 import img4 from '../../assets/img1 (15).png'
@@ -7,7 +7,7 @@ import TextField from '@mui/material/TextField'
 import MenuItem from '@mui/material/MenuItem'
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
-import Profile from '../../component/profile'
+import Profile from '../../components/profile'
 
 const Home = () => {
     return (

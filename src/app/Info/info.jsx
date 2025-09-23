@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import img from '../../assets/img1 (19).png'
 import Stack from '@mui/material/Stack'
 import Pagination from '@mui/material/Pagination'
-import Profile from '../../component/profile'
+import Profile from '../../components/profile'
 
 const Info = () => {
     let [information, setinformation] = useState(true)

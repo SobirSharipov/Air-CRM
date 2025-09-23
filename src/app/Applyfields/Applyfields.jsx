@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Cog from '../../component/Cog'
+import Cog from '../../components/Cog'
 import TextField from '@mui/material/TextField'
 import MenuItem from '@mui/material/MenuItem'
-import Profile from '../../component/profile'
+import Profile from '../../components/profile'
 
 const Applyfields = () => {
     let [rate, setRate] = useState(false)

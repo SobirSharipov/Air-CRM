@@ -4,7 +4,7 @@ import img5 from '../../assets/img1 (16).png'
 import { Link } from 'react-router'
 import MenuItem from '@mui/material/MenuItem'
 import TextField from '@mui/material/TextField'
-import Profile from '../../component/profile'
+import Profile from '../../components/profile'
 
 const Newbooking = () => {
     const today = new Date().toISOString().split('T')[0];

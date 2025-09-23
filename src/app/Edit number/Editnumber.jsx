@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router'
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
-import Cog from '../../component/Cog';
-import Profile from '../../component/profile';
+import Cog from '../../components/Cog';
+import Profile from '../../components/profile';
 
 const Editnumber = () => {
     return (

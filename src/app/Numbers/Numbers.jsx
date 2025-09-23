@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import Cog from '../../component/Cog'
+import Cog from '../../components/Cog'
 import Switch from '@mui/material/Switch';
 import img1 from '../../assets/Frame.svg'
 import img2 from '../../assets/img1 (13).png'
 import img from '../../assets/img1.png'
 import { Link } from 'react-router';
-import Profile from '../../component/profile';
+import Profile from '../../components/profile';
 
 const Numbers = () => {
   const [checked, setChecked] = useState(true);
