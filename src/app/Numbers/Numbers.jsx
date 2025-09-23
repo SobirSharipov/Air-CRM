@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Cog from '../../components/Cog'
+import Cog from '../../components/Cog.jsx'
 import Switch from '@mui/material/Switch';
 import img1 from '../../assets/Frame.svg'
 import img2 from '../../assets/img1 (13).png'

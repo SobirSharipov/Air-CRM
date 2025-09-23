@@ -1,5 +1,5 @@
 import React from 'react'
-import Cog from '../../components/Cog'
+import Cog from '../../components/Cog.jsx'
 import TextField from '@mui/material/TextField'
 import MenuItem from '@mui/material/MenuItem'
 import Profile from '../../components/profile'
