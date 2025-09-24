@@ -2,7 +2,7 @@ import React from 'react'
 import Pagination from '@mui/material/Pagination'
 import Stack from '@mui/material/Stack'
 import img2 from '../../assets/img1 (13).png'
-import Filterpatients from '../../components/Filterpatients'
+import Filterpatients from '../../components/filterpatients'
 import { Link } from 'react-router'
 import Profile from '../../components/profile'
 
