@@ -166,9 +166,10 @@ const Patients = () => {
                     size="small"
                     fullWidth
                     sx={{
-                      "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "30px", backgroundColor: "#3F83F8", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
+                      "& .MuiOutlinedInput-root": { borderRadius: "15px", height: "30px", backgroundColor: "#3F83F8", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
                       "& .MuiInputLabel-root": { fontSize: "11px" },
                       "& input": { fontSize: "11px", padding: "8px" },
+                      "& .MuiSelect-icon": { color: "white", fontSize: "18px", },
                     }}
                   >
                     <MenuItem value="standard">В ожидании</MenuItem>
@@ -206,9 +207,10 @@ const Patients = () => {
                     size="small"
                     fullWidth
                     sx={{
-                      "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "30px", backgroundColor: "#F05252", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
+                      "& .MuiOutlinedInput-root": { borderRadius: "15px", height: "30px", backgroundColor: "#F05252", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
                       "& .MuiInputLabel-root": { fontSize: "11px" },
                       "& input": { fontSize: "11px", padding: "8px" },
+                      "& .MuiSelect-icon": { color: "white", fontSize: "18px", },
                     }}
                   >
                     <MenuItem value="standard">В ожидании</MenuItem>
@@ -247,9 +249,10 @@ const Patients = () => {
                     size="small"
                     fullWidth
                     sx={{
-                      "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "30px", backgroundColor: "#0E9F6E", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
+                      "& .MuiOutlinedInput-root": { borderRadius: "15px", height: "30px", backgroundColor: "#0E9F6E", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
                       "& .MuiInputLabel-root": { fontSize: "11px" },
                       "& input": { fontSize: "11px", padding: "8px" },
+                      "& .MuiSelect-icon": { color: "white", fontSize: "18px", },
                     }}
                   >
                     <MenuItem value="standard">В ожидании</MenuItem>
