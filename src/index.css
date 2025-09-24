@@ -195,3 +195,49 @@
   font-family: 'Montserrat-ThinItalic';
   src: url('./assets/fonts/Montserrat-ThinItalic.ttf') format('truetype');
 }
+
+
+@font-face {
+  font-family: 'Onest-Black';
+  src: url('./assets/fonts/Onest-Black.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Onest-Bold';
+  src: url('./assets/fonts/Onest-Bold.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Onest-ExtraBold';
+  src: url('./assets/fonts/Onest-ExtraBold.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Onest-ExtraLight';
+  src: url('./assets/fonts/Onest-ExtraLight.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Onest-Light';
+  src: url('./assets/fonts/Onest-Light.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Onest-Medium';
+  src: url('./assets/fonts/Onest-Medium.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Onest-Regular';
+  src: url('./assets/fonts/Onest-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Onest-SemiBold';
+  src: url('./assets/fonts/Onest-SemiBold.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Onest-Thin';
+  src: url('./assets/fonts/Onest-Thin.ttf') format('opentype');
+}

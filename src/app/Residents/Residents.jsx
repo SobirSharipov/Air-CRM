@@ -97,7 +97,7 @@ const Residents = () => {
             <div className='bg-white m-[20px] grid grid-cols-4 gap-[20px] text-[13px] p-[20px] rounded-2xl'>
                 <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
                     <div className='flex justify-between items-center  py-[10px] border-b'>
-                        <button className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
+                        <button style={{ fontFamily: "Montserrat-SemiBold" }} className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
                         <div className='text-green-600 flex gap-1'>
                             <button className='bg-white p-2 rounded-full mr-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
@@ -133,7 +133,7 @@ const Residents = () => {
                 </div>
                 <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
                     <div className='flex justify-between gap-3 items-center  py-[10px] border-b'>
-                        <button className='bg-[#FFF8F1]  p-2 rounded'>Не оплачено</button>
+                        <button style={{ fontFamily: "Montserrat-SemiBold" }} className='bg-[#FFF8F1]  p-2 rounded'>Не оплачено</button>
                         <div className='text-green-600 flex gap-1'>
                             <button className='bg-white p-2 rounded-full mr-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
@@ -167,9 +167,9 @@ const Residents = () => {
                         </div>
                     </div>
                 </div>
-                 <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
+                <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
                     <div className='flex justify-between items-center  py-[10px] border-b'>
-                        <button className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
+                        <button style={{ fontFamily: "Montserrat-SemiBold" }} className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
                         <div className='text-green-600 flex gap-1'>
                             <button className='bg-white p-2 rounded-full mr-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
@@ -203,9 +203,9 @@ const Residents = () => {
                         </div>
                     </div>
                 </div>
-                 <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
+                <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
                     <div className='flex justify-between items-center  py-[10px] border-b'>
-                        <button className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
+                        <button style={{ fontFamily: "Montserrat-SemiBold" }} className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
                         <div className='text-green-600 flex gap-1'>
                             <button className='bg-white p-2 rounded-full mr-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
@@ -239,9 +239,9 @@ const Residents = () => {
                         </div>
                     </div>
                 </div>
-                 <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
+                <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
                     <div className='flex justify-between items-center  py-[10px] border-b'>
-                        <button className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
+                        <button style={{ fontFamily: "Montserrat-SemiBold" }} className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
                         <div className='text-green-600 flex gap-1'>
                             <button className='bg-white p-2 rounded-full mr-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
@@ -275,9 +275,9 @@ const Residents = () => {
                         </div>
                     </div>
                 </div>
-                 <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
+                <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
                     <div className='flex justify-between items-center  py-[10px] border-b'>
-                        <button className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
+                        <button style={{ fontFamily: "Montserrat-SemiBold" }} className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
                         <div className='text-green-600 flex gap-1'>
                             <button className='bg-white p-2 rounded-full mr-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
@@ -311,9 +311,9 @@ const Residents = () => {
                         </div>
                     </div>
                 </div>
-                 <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
+                <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
                     <div className='flex justify-between items-center  py-[10px] border-b'>
-                        <button className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
+                        <button style={{ fontFamily: "Montserrat-SemiBold" }} className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
                         <div className='text-green-600 flex gap-1'>
                             <button className='bg-white p-2 rounded-full mr-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
@@ -347,9 +347,9 @@ const Residents = () => {
                         </div>
                     </div>
                 </div>
-                 <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
+                <div className='bg-[#F5F7FA] rounded-[10px] pb-[20px] p-[10px]'>
                     <div className='flex justify-between items-center  py-[10px] border-b'>
-                        <button className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
+                        <button style={{ fontFamily: "Montserrat-SemiBold" }} className='bg-[#FDE8E8] px-[30px] p-2 rounded'>Выехали</button>
                         <div className='text-green-600 flex gap-1'>
                             <button className='bg-white p-2 rounded-full mr-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
@@ -383,6 +383,7 @@ const Residents = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <p className='text-center text-gray-500 pb-[50px]'>© Air 2025</p>
