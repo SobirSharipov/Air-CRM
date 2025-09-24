@@ -164,11 +164,11 @@ const Numbers = () => {
             <tr className="bg-gray-50  text-gray-500 ">
               <th className="px-3 py-[15px] font-medium rounded-l-2xl">№</th>
               <th className="">Тариф</th>
-              <th className="">Вместимость</th>
-              <th className="">Цена</th>
+              <th className="w-[13%]">Кол-во заселений</th>
+              <th className="w-[8%]">Цена</th>
               <th className="">Корпус</th>
               <th className="">Этаж</th>
-              <th className="">Тип</th>
+              <th className="w-[10%] px-[10px]">Тип</th>
               <th className="">Мест</th>
               <th className="">Баланс</th>
               <th className="">К оплате</th>
@@ -181,7 +181,7 @@ const Numbers = () => {
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
               <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}} className="">Стандарт</td>
-              <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
+              <td className="font-bold px-[10px]">200</td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
               <td className="font-bold">25</td>
@@ -217,7 +217,7 @@ const Numbers = () => {
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
               <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}}  className="">Стандарт</td>
-              <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
+              <td className="font-bold px-[10px]">200</td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
               <td className="font-bold">25</td>
@@ -253,7 +253,7 @@ const Numbers = () => {
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
               <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}}  className="">Стандарт</td>
-              <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
+              <td className="font-bold px-[10px]">200</td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
               <td className="font-bold">25</td>
@@ -289,7 +289,7 @@ const Numbers = () => {
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
               <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}}  className="">Стандарт</td>
-              <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
+              <td className="font-bold px-[10px]">200</td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
               <td className="font-bold">25</td>
@@ -325,7 +325,7 @@ const Numbers = () => {
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
               <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}}  className="">Стандарт</td>
-              <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
+              <td className="font-bold px-[10px]">200</td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
               <td className="font-bold">25</td>

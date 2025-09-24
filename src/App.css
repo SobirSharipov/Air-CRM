@@ -1,0 +1,20 @@
+.custom-select-blue .ant-select-selector {
+    background: linear-gradient(#9db8f1, #1645ac, #9db8f1) !important;
+    border: 2px solid #739df7 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.custom-select-red .ant-select-selector {
+    background: linear-gradient(#fd9b9b, #da2d2d, #fcaeae) !important;
+    border: 2px solid #eb7575 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.custom-select-green .ant-select-selector {
+    background: linear-gradient(#7addbc, #197e5c, #7addbc) !important;
+    border: 2px solid #40dfaa !important;
+    color: white !important;
+}
+

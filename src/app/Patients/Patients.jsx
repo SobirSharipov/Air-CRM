@@ -5,6 +5,9 @@ import Stack from '@mui/material/Stack'
 import Pagination from '@mui/material/Pagination'
 import { Link } from 'react-router'
 import Profile from '../../components/profile'
+import { Select } from "antd";
+import { ChevronsUpDown } from "lucide-react";
+import '../../App.css'
 
 const Patients = () => {
   return (
@@ -159,21 +162,15 @@ const Patients = () => {
               <td>+992 901 09 20 35</td>
               <td className='text-[#0E9F6E]'>25000 c.</td>
               <td>
-                <div className='w-[65%]'>
-                  <TextField
-                    select
-                    defaultValue="standard"
-                    size="small"
-                    fullWidth
-                    sx={{
-                      "& .MuiOutlinedInput-root": { borderRadius: "15px", height: "30px", backgroundColor: "#3F83F8", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
-                      "& .MuiInputLabel-root": { fontSize: "11px" },
-                      "& input": { fontSize: "11px", padding: "8px" },
-                      "& .MuiSelect-icon": { color: "white", fontSize: "18px", },
-                    }}
-                  >
-                    <MenuItem value="standard">В ожидании</MenuItem>
-                  </TextField>
+                <div>
+                    <Select
+                      className="!w-[130px] custom-select-blue"
+                      defaultValue="pending"
+                      suffixIcon={<ChevronsUpDown className="text-white" />}
+                      options={[
+                        { value: 'pending', label: 'В ожидании' },
+                      ]}
+                    />
                 </div>
               </td>
               <td className='text-green-700'>
@@ -200,21 +197,15 @@ const Patients = () => {
               <td>+992 901 09 20 35</td>
               <td className='text-[#F05252]'>25000 c.</td>
               <td>
-                <div className='w-[65%]'>
-                  <TextField
-                    select
-                    defaultValue="standard"
-                    size="small"
-                    fullWidth
-                    sx={{
-                      "& .MuiOutlinedInput-root": { borderRadius: "15px", height: "30px", backgroundColor: "#F05252", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
-                      "& .MuiInputLabel-root": { fontSize: "11px" },
-                      "& input": { fontSize: "11px", padding: "8px" },
-                      "& .MuiSelect-icon": { color: "white", fontSize: "18px", },
-                    }}
-                  >
-                    <MenuItem value="standard">В ожидании</MenuItem>
-                  </TextField>
+                <div>
+                    <Select
+                      className="!w-[130px] custom-select-red"
+                      defaultValue="pending"
+                      suffixIcon={<ChevronsUpDown className="text-white" />}
+                      options={[
+                        { value: 'pending', label: 'В ожидании' },
+                      ]}
+                    />
                 </div>
 
               </td>
@@ -242,21 +233,15 @@ const Patients = () => {
               <td>+992 901 09 20 35</td>
               <td className='text-[#0E9F6E]'>25000 c.</td>
               <td>
-                <div className='w-[65%]'>
-                  <TextField
-                    select
-                    defaultValue="standard"
-                    size="small"
-                    fullWidth
-                    sx={{
-                      "& .MuiOutlinedInput-root": { borderRadius: "15px", height: "30px", backgroundColor: "#0E9F6E", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
-                      "& .MuiInputLabel-root": { fontSize: "11px" },
-                      "& input": { fontSize: "11px", padding: "8px" },
-                      "& .MuiSelect-icon": { color: "white", fontSize: "18px", },
-                    }}
-                  >
-                    <MenuItem value="standard">В ожидании</MenuItem>
-                  </TextField>
+                <div>
+                     <Select
+                      className="!w-[130px] custom-select-green"
+                      defaultValue="pending"
+                      suffixIcon={<ChevronsUpDown className="text-white" />}
+                      options={[
+                        { value: 'pending', label: 'В ожидании' },
+                      ]}
+                    />
                 </div>
               </td>
               <td className='text-green-700'>
