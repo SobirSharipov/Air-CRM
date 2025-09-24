@@ -9,7 +9,7 @@ const Newentry = () => {
     return (
         <div>
 
-            <div className='flex justify-between items-center px-[20px]'>
+            <div className='flex justify-between items-center  px-[20px]'>
                 <div className='flex gap-[10px] font-light text-gray-500 items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -27,9 +27,12 @@ const Newentry = () => {
 
                     <p>Все сделки</p>
                 </div>
-                <div className='flex items-center gap-[10px]'>
+                <div className='flex items-center font-light text-[13px] gap-[10px]'>
+                    <Link to={'/Newentry'}>
+                        <button className='bg-[#005456] cursor-pointer text-white  p-[10px] rounded-[8px]'>+ Новая запись</button>
+                    </Link>
                     <Link to={'/Listpatients'}>
-                        <button className='bg-[#E6EAED] text-[#005456] font-semibold cursor-pointer p-[5px] px-[10px] rounded'>Список пациентов</button>
+                        <button className='bg-[#E6EAED] hover:bg-[#dadde0]  p-[10px] cursor-pointer  text-[#005456] rounded-[8px]'>Список пациентов</button>
                     </Link>
                     <button className='bg-[#005456] cursor-pointer text-white p-[5px] px-[10px] rounded'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -45,19 +48,19 @@ const Newentry = () => {
                 <div className='w-[40%]'>
 
                     <div className='bg-white p-[20px] rounded-2xl'>
-                        <p className='font-semibold text-2xl mb-[20px]'>Пациент</p>
-                        <div className='flex gap-5'>
+                        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}} className='mb-[20px]'>Пациент</p>
+                        <div className='flex gap-5 items-center'>
                             <img src={imguser} alt="" />
                             <div>
-                                <p className='font-semibold'>Мухамад Джаборов</p>
-                                <p>+992 902 99 99 99</p>
+                                <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"15px"}}>Мухамад Джаборов</p>
+                                <p className='flex gap-4 items-end font-light'>+992 902 99 99 99 <span style={{fontFamily:"Gilroy-ExtraBold",fontSize:"13px"}} className='text-[#5E5F62]'>   № 1245</span></p>
                             </div>
                         </div>
-                        <button className='w-full bg-[#1D272F1A] text-[#005456] font-bold p-[10px] rounded-[10px] mt-[20px]'>Информация</button>
+                        <button style={{fontFamily:"Montserrat-SemiBold",fontSize:"15px"}} className='w-full bg-[#1D272F1A] text-[#005456]  p-[10px] rounded-[10px] mt-[20px]'>Информация</button>
                     </div>
 
                     <div className='bg-white p-[20px] rounded-2xl mt-[20px]'>
-                        <p className='font-semibold text-center text-2xl'>История обращений</p>
+                        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}} className=' text-center'>История обращений</p>
                         <div className='flex gap-2 my-[20px] '>
                             <div className='w-[80%]'>
                                 <TextField
@@ -290,14 +293,14 @@ const Newentry = () => {
                                 />
                             </div>
                         </div>
-                        <button className='w-full cursor-pointer text-[#005456] font-bold bg-[#1D272F1A] p-[10px] rounded-[10px] mt-[10px] '>Вся история</button>
+                        <button style={{fontFamily:"Montserrat-SemiBold",fontSize:"15px"}} className='w-full cursor-pointer text-[#005456] bg-[#1D272F1A] p-[10px] rounded-[10px] mt-[10px] '>Вся история</button>
                     </div>
 
                 </div>
 
                 <div className='bg-white w-[60%] rounded-2xl p-[20px]'>
-                    <div className='font-semibold text-2xl  flex justify-between'>
-                        <p>Жалобы</p>
+                    <div className='flex justify-between'>
+                        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}}>Жалобы</p>
                         <button>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -326,7 +329,7 @@ const Newentry = () => {
                         </div>
                     </div>
                     <div>
-                        <p className='font-semibold text-2xl my-[20px]'>Анамнез</p>
+                        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}} className='my-[20px]'>Анамнез</p>
                         <div className='w-[100%]'>
                             <TextField
                                 label="Стоимость для граждан Таджикистана"
@@ -342,7 +345,7 @@ const Newentry = () => {
                         </div>
                     </div>
                     <div>
-                        <p className='font-semibold text-2xl my-[20px]'>Терапевтический статус</p>
+                        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}} className='my-[20px]'>Терапевтический статус</p>
                         <div className='w-[100%]'>
                             <TextField
                                 label="Периодичность уборки"
@@ -358,7 +361,7 @@ const Newentry = () => {
                         </div>
                     </div>
                     <div>
-                        <p className='font-semibold text-2xl my-[20px]'>Диагноз </p>
+                        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}} className='my-[20px]'>Диагноз </p>
                         <div className=''>
                             <TextField
                                 select
@@ -378,7 +381,7 @@ const Newentry = () => {
                         </div>
                     </div>
                     <div>
-                        <p className='font-semibold text-2xl my-[20px]'>Рекомендации</p>
+                        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}} className='my-[20px]'>Рекомендации</p>
                         <div className='w-[100%]'>
                             <TextField
                                 label="Периодичность уборки"
@@ -394,7 +397,7 @@ const Newentry = () => {
                         </div>
                     </div>
                     <div>
-                        <p className='font-semibold text-2xl my-[20px]'>Назначение</p>
+                        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}} className='my-[20px]'>Назначение</p>
                         <div className='w-[100%]'>
                             <TextField
                                 label="Периодичность уборки"
@@ -409,7 +412,7 @@ const Newentry = () => {
                             />
                         </div>
                     </div>
-                    <div className='flex font-semibold gap-2 mt-[55px]'>
+                    <div style={{fontFamily:"Montserrat-SemiBold",fontSize:"15px"}} className='flex  gap-2 mt-[60px]'>
                         <Link to={'/patients'} className='w-[100%]'>
                             <button className='bg-[#1D272F1A] cursor-pointer text-[#005456] w-full p-[10px] rounded-[10px]'>Отмена</button>
                         </Link>

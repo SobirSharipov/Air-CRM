@@ -8,7 +8,7 @@ import Profile from '../../components/profile';
 const NewNumber = () => {
     return (
         <div>
-            <div className='flex font-light gap-[10px] text-gray-600 items-center py-[5px] px-[20px]'>
+            <div className='flex font-light gap-[10px] text-gray-600 items-center py-[8px] px-[20px]'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
@@ -23,16 +23,11 @@ const NewNumber = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>
 
-                <p>Список номеров</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                </svg>
-
                 <p>Новый номер</p>
             </div>
 
             <div className='flex justify-between items-center px-[30px] pt-[20px]'>
-                <p className='font-semibold text-[36px]'>Добавление номера </p>
+                <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "36px" }}>Добавление номера </p>
 
                 <div className='flex items-center gap-2'>
                     <Cog />
@@ -49,7 +44,7 @@ const NewNumber = () => {
             <div className='bg-white p-[20px] m-[20px] rounded-2xl'>
 
                 <div className='flex justify-between'>
-                    <p className='font-semibold text-2xl'>Детали номера </p>
+                    <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }}>Детали номера </p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                     </svg>
@@ -214,7 +209,7 @@ const NewNumber = () => {
                 </div>
 
                 <div>
-                    <p className='font-semibold text-2xl my-[20px]'>Стоимость</p>
+                    <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className=' my-[20px]'>Стоимость</p>
                     <div className='flex gap-5'>
                         <div className='w-[50%]'>
                             <TextField
@@ -244,7 +239,7 @@ const NewNumber = () => {
 
                         </div>
                     </div>
-                    <p className='font-semibold text-2xl my-[20px]'>Хаускипинг (уборка) </p>
+                    <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className='my-[20px]'>Хаускипинг (уборка) </p>
                     <div className='w-[30%]'>
                         <TextField
                             select
@@ -263,7 +258,7 @@ const NewNumber = () => {
                         </TextField>
                     </div>
                     <div className=' mt-[30px]'>
-                        <p className='font-semibold text-2xl my-[20px]'>Что в комнате?</p>
+                        <p  style={{fontFamily:"Montserrat-SemiBold",fontSize:"20px"}} className='my-[20px]'>Что в комнате?</p>
                         <TextField
                             label="Перечислите то, что есть в комнате через запятую и с большой буквы"
                             variant="outlined"
@@ -286,7 +281,7 @@ const NewNumber = () => {
                     </div>
                 </div>
 
-                <div className='flex gap-4 mt-[30px]'>
+                <div  style={{fontFamily:"Montserrat-SemiBold",fontSize:"13px"}} className='flex gap-4 mt-[30px]'>
                     <Link to={'/Numbers'} className='w-[100%]'>
                         <button className='bg-[#1D272F1A] p-[10px] rounded-[10px] w-full'>Отмена</button>
                     </Link>

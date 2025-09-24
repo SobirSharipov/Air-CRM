@@ -10,7 +10,7 @@ const Listpatients = () => {
     return (
         <div>
 
-            <div className='flex gap-[10px] font-light items-center px-[20px] py-[7px] text-gray-500 '>
+            <div className='flex gap-[10px] font-light items-center px-[20px] py-[8px] text-gray-500 '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
@@ -24,17 +24,17 @@ const Listpatients = () => {
             </div>
 
             <div className='flex justify-between items-center mx-[20px]'>
-                <p className='font-bold text-[36px]'>Список Пациентов</p>
-                <div className='flex font-light gap-[10px]'>
+                <p style={{ fontFamily: "Montserrat-Bold", fontSize: "36px" }} className='font-bold text-[36px]'>Список Пациентов</p>
+                <div className='flex items-center font-light gap-[10px]'>
                     <Link to={'/Newentry'}>
-                    <button className='bg-[#005456] cursor-pointer text-white p-[5px] px-[10px] rounded'>+ Новая запись</button>
+                        <button className='bg-[#005456] cursor-pointer text-white  p-[5px] px-[10px] rounded-[8px]'>+ Новая запись</button>
                     </Link>
                     <button className='bg-white text-[#005456] cursor-pointer p-[5px] px-[10px] rounded border border-gray-300'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
                         </svg>
                     </button>
-                  <Profile bgcolor={"white"} color={"#005456"}/>
+                    <Profile bgcolor={"white"} color={"#005456"} />
                 </div>
             </div>
 
@@ -61,23 +61,23 @@ const Listpatients = () => {
                             <img src={img2} alt="" />
                             <button>Экспорт</button>
                         </div>
-                        <Filterpatients/>
+                        <Filterpatients />
                     </div>
                 </div>
-            
+
                 <table className='w-[100%] text-left text-[13px] my-[20px]'>
                     <thead>
-                        <tr  style={{fontFamily:"Gilroy"}} className=' text-gray-600 bg-[#F5F7FA]'>
-                            <td className='p-[15px] rounded-l-2xl'>№</td>
-                            <td>ФИО</td>
-                            <td>Номер телефона</td>
-                            <td>Дата рождения</td>
-                            <td>Сумма</td>
-                            <td>Обращений</td>
-                            <td>Баллы</td>
-                            <td>Источник</td>
-                            <td>Статус</td>
-                            <td className='rounded-r-2xl'>Действие</td>
+                        <tr style={{ fontFamily: "Gilroy-Ligght" }} className=' text-gray-600 bg-[#F5F7FA]'>
+                            <th className='p-[15px] rounded-l-2xl'>№</th>
+                            <th>ФИО</th>
+                            <th>Номер телефона</th>
+                            <th>Дата рождения</th>
+                            <th>Сумма</th>
+                            <th>Обращений</th>
+                            <th>Баллы</th>
+                            <th>Источник</th>
+                            <th>Статус</th>
+                            <th className='rounded-r-2xl'>Действие</th>
                         </tr>
                     </thead>
                     <tbody className=''>
@@ -96,11 +96,11 @@ const Listpatients = () => {
                             </td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -117,11 +117,11 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -138,11 +138,11 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -159,11 +159,11 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -180,11 +180,11 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -201,11 +201,11 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -222,11 +222,11 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -243,11 +243,11 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -264,11 +264,11 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
                         </tr>
@@ -285,14 +285,14 @@ const Listpatients = () => {
                             <td>820 дней</td>
                             <td className='text-green-700 rounded-r-2xl'>
                                 <Link to={'/Info'}>
-                                <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                    </svg>
-                                </button>
+                                    <button className='bg-white p-2 rounded-full mr-2 cursor-pointer'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                    </button>
                                 </Link>
                             </td>
-                        </tr>                      
+                        </tr>
                     </tbody>
                 </table>
 
@@ -303,7 +303,7 @@ const Listpatients = () => {
                 </div>
 
             </div>
-            
+
         </div>
     )
 }

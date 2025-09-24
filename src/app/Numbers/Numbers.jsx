@@ -16,7 +16,7 @@ const Numbers = () => {
   return (
     <div>
 
-      <div className='flex gap-[10px] font-light text-gray-500 items-center pt-[5px] mb-[20px] ml-[20px]'>
+      <div className='flex gap-[10px] font-light text-gray-500 items-center pt-[8px]  pb-[20px] ml-[20px]'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
           <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
         </svg>
@@ -34,8 +34,8 @@ const Numbers = () => {
         <p>Список номеров</p>
       </div>
 
-      <div className='flex justify-between items-center p-[20px] '>
-        <p className='font-semibold text-[36px]'>Список номеров</p>
+      <div className='flex justify-between items-center px-[20px] py-[10px] '>
+        <p style={{fontFamily:"Montserrat-SemiBold",fontSize:"36px"}}>Список номеров</p>
 
         <div className='flex items-center gap-2'>
           <Link to="/newNumber">
@@ -114,7 +114,7 @@ const Numbers = () => {
           <div className='flex items-center gap-[10px] pt-[20px] px-[30px]'>
             <img src={img} alt="" />
             <div>
-              <p style={{ fontFamily: "Inter-Bold" }} className='text-[13px]'>Номера Вып</p>
+              <p style={{ fontFamily: "Inter-Bold" }} className='text-[13px]'>Номера Аппарты</p>
               <p className='font-semibold'>123 <span className='font-normal'>Мест свободно</span></p>
             </div>
           </div>
@@ -136,21 +136,21 @@ const Numbers = () => {
 
         <div className='flex justify-between items-center mt-[20px] '>
 
-          <div className='flex items-center px-[10px] gap-[10px] border border-gray-400 w-[40%] rounded-[10px] '>
+          <div className='flex items-center px-[10px] gap-[10px] border border-gray-400 w-[30%] rounded-[10px] '>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
             </svg>
-            <input type="text" placeholder='Поиск' className='border-none outline-none p-[10px] rounded-lg w-full' />
+            <input type="text" placeholder='Поиск' className='border-none outline-none p-[8px] rounded-lg w-full' />
           </div>
 
           <div className='flex gap-[10px]'>
 
-            <div className='flex gap-[10px] cursor-pointer bg-[#E1EFFE] p-[10px] px-[20px] rounded-[10px] text-[13px]'>
+            <div className='flex gap-[10px] cursor-pointer bg-[#F5F7FA] p-[10px] px-[20px] rounded-[10px] text-[13px]'>
               <img src={img2} alt="" />
               <button>Импорт</button>
             </div>
     
-            <div className='flex gap-[10px] cursor-pointer bg-[#E1EFFE] p-[10px] px-[20px] rounded-[10px] text-[13px]'>
+            <div className='flex gap-[10px] cursor-pointer bg-[#F5F7FA] p-[10px] px-[20px] rounded-[10px] text-[13px]'>
               <img src={img2} alt="" />
               <button>Экспорт</button>
             </div>
@@ -160,27 +160,27 @@ const Numbers = () => {
         </div>
 
         <table className="w-[100%] mt-[40px] text-[13px] text-left border-collapse">
-          <thead style={{fontFamily:"Gilroy"}}>
+          <thead style={{fontFamily:"Gilroy-Ligght"}}>
             <tr className="bg-gray-50  text-gray-500 ">
-              <td className="px-3 py-[15px] font-medium rounded-l-2xl">№</td>
-              <td className="">Тариф</td>
-              <td className="">Вместимость</td>
-              <td className="">Цена</td>
-              <td className="">Корпус</td>
-              <td className="">Этаж</td>
-              <td className="">Тип</td>
-              <td className="">Мест</td>
-              <td className="">Баланс</td>
-              <td className="">К оплате</td>
-              <td className="">Статус</td>
-              <td className=" rounded-r-2xl">Действия</td>
+              <th className="px-3 py-[15px] font-medium rounded-l-2xl">№</th>
+              <th className="">Тариф</th>
+              <th className="">Вместимость</th>
+              <th className="">Цена</th>
+              <th className="">Корпус</th>
+              <th className="">Этаж</th>
+              <th className="">Тип</th>
+              <th className="">Мест</th>
+              <th className="">Баланс</th>
+              <th className="">К оплате</th>
+              <th className="">Статус</th>
+              <th className=" rounded-r-2xl">Действия</th>
             </tr>
           </thead>
           <tbody className="text-sm">
             <tr className='bg-white p-[20px]'> <td className='p-[10px]'></td></tr>
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
-              <td className="">Стандарт</td>
+              <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}} className="">Стандарт</td>
               <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
@@ -216,7 +216,7 @@ const Numbers = () => {
             <tr className='bg-white p-[20px]'> <td className='p-[10px]'></td></tr>
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
-              <td className="">Стандарт</td>
+              <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}}  className="">Стандарт</td>
               <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
@@ -252,7 +252,7 @@ const Numbers = () => {
             <tr className='bg-white p-[20px]'> <td className='p-[10px]'></td></tr>
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
-              <td className="">Стандарт</td>
+              <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}}  className="">Стандарт</td>
               <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
@@ -288,7 +288,7 @@ const Numbers = () => {
             <tr className='bg-white p-[20px]'> <td className='p-[10px]'></td></tr>
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
-              <td className="">Стандарт</td>
+              <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}}  className="">Стандарт</td>
               <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>
@@ -324,7 +324,7 @@ const Numbers = () => {
             <tr className='bg-white p-[20px]'> <td className='p-[10px]'></td></tr>
             <tr className="bg-gray-50">
               <td className="font-bold px-3 py-5 rounded-l-2xl">1</td>
-              <td className="">Стандарт</td>
+              <td style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}}  className="">Стандарт</td>
               <td className="">02.05.2025<br /><span className="text-gray-400 text-xs">10:12</span></td>
               <td className="font-bold">200 с</td>
               <td className="font-bold">25</td>

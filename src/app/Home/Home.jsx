@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div>
 
-            <div className='flex justify-between items-center font-light text-gray-500 px-[20px]'>
+            <div className='flex justify-between items-center font-light text-gray-500 pt-[2px] px-[20px]'>
                 <div className='flex gap-[10px] items-center '>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -95,20 +95,20 @@ const Home = () => {
                 </div>
 
                 <table className='w-[100%] my-[20px] rounded'>
-                    <thead style={{fontFamily:"Gilroy"}} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-2xl'>
+                    <thead style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}} className='bg-[#F5F7FA]  text-gray-500  text-[13px]  rounded-2xl'>
                         <tr className='text-left'>
-                            <td className='py-[13px] px-[10px] rounded-l-2xl'>Клиент</td>
-                            <td className=''>Взрс/дети</td>
-                            <td className='px-[10px]'>Ночей</td>
-                            <td className='px-[10px]'>Номер</td>
-                            <td className='px-[15px]'>Тариф</td>
-                            <td className='px-[10px]'>Дата заезда</td>
-                            <td className='px-[10px]'>Дата выезда</td>
-                            <td className='px-[10px]'>Сумма</td>
-                            <td className='px-[10px]'>Баланс</td>
-                            <td className='px-[10px]'>К оплате</td>
-                            <td className='w-[12%] px-[10px]'>Статус</td>
-                            <td className='rounded-r-2xl text-center pr-[10px]'>Действия</td>
+                            <th className='py-[13px] px-[10px] rounded-l-2xl'>Клиент</th>
+                            <th className=''>Взрс/дети</th>
+                            <th className='px-[10px]'>Ночей</th>
+                            <th className='px-[10px]'>Номер</th>
+                            <th className='px-[15px]'>Тариф</th>
+                            <th className='px-[10px]'>Дата заезда</th>
+                            <th className='px-[10px]'>Дата выезда</th>
+                            <th className='px-[10px]'>Сумма</th>
+                            <th className='px-[10px]'>Баланс</th>
+                            <th className='px-[10px]'>К оплате</th>
+                            <th className='w-[12%] px-[10px]'>Статус</th>
+                            <th className='rounded-r-2xl text-center pr-[10px]'>Действия</th>
                         </tr>
                     </thead>
                     <tbody className='text-[13px] font-medium'>

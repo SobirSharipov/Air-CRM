@@ -12,7 +12,7 @@ const Info = () => {
     return (
         <div>
 
-            <div className='flex gap-[10px] items-center font-light px-[20px] pt-[5px] pb-[20px] text-[#9A9DA3]'>
+            <div className='flex gap-[10px] items-center font-light px-[20px] pt-[8px] pb-[20px] text-[#9A9DA3]'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
@@ -31,7 +31,7 @@ const Info = () => {
             </div>
 
             <div className='flex justify-between mx-[20px]'>
-                <p className='font-extrabold text-[30px]'>Карточка пациента    №13 Фирдавс Намозов</p>
+                <p style={{fontFamily:"Gilroy-ExtraBold",fontSize:"35px"}}>Карточка пациента    №13 Фирдавс Намозов</p>
 
                 <div className='flex items-center gap-[10px]'>
 
@@ -53,9 +53,9 @@ const Info = () => {
                 </div>
             </div>
 
-            <div className='p-[20px] mx-[10px] my-[30px] bg-white rounded-2xl'>
+            <div className='p-[20px] mx-[20px] my-[30px] bg-white rounded-2xl'>
                 <div className='flex justify-between '>
-                    <p className='font-semibold text-2xl'>Общие сведения</p>
+                    <p style={{ fontFamily: "Montserrat-Bold", fontSize: "20px" }} >Общие сведения</p>
                     {information ? <button onClick={() => setinformation(!information)} className='cursor-pointer'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
@@ -65,7 +65,6 @@ const Info = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
                         </svg>
                     </button>}
-
 
                 </div>
                 {information && (
@@ -365,7 +364,7 @@ const Info = () => {
                                 }}
                             />
                         </div>
-                        <div className='flex font-semibold justify-end gap-3 mt-[30px]'>
+                        <div style={{fontFamily:"Montserrat-SemiBold",fontSize:"16px"}} className='flex justify-end gap-3 mt-[30px]'>
                             <button className='bg-[#F5F7FA] w-[20%] p-[10px] rounded-[10px] text-[#005456]'>Редактировать</button>
                             <button className='bg-[#005456] w-[20%] p-[10px] rounded-[10px] text-white'>Сохранить</button>
                         </div>
@@ -373,9 +372,9 @@ const Info = () => {
                 )}
             </div>
 
-            <div className='p-[20px] mx-[10px] my-[30px] bg-white rounded-2xl'>
+            <div className='p-[20px] mx-[20px] my-[30px] bg-white rounded-2xl'>
                 <div className='flex justify-between '>
-                    <p className='font-semibold text-2xl'>Медицинские сведения</p>
+                    <p style={{ fontFamily: "Montserrat-Bold", fontSize: "20px" }}>Медицинские сведения</p>
                     {information2 ? <button onClick={() => setinformation2(!information2)} className='cursor-pointer'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
@@ -492,18 +491,18 @@ const Info = () => {
                                 />
                             </div>
                         </div>
-                        <div className='flex font-semibold justify-end gap-3 mt-[30px]'>
-                            <button className='bg-[#F5F7FA] w-[20%] p-[10px] rounded text-[#005456]'>Редактировать</button>
-                            <button className='bg-[#005456] w-[20%] p-[10px] rounded text-white'>Сохранить</button>
+                        <div  style={{fontFamily:"Montserrat-SemiBold",fontSize:"16px"}}  className='flex justify-end gap-3 mt-[30px]'>
+                            <button className='bg-[#F5F7FA] w-[20%] p-[10px] rounded-[10px] text-[#005456]'>Редактировать</button>
+                            <button className='bg-[#005456] w-[20%] p-[10px] rounded-[10px] text-white'>Сохранить</button>
                         </div>
                     </div>
                 )}
             </div>
 
-            <div className='p-[20px] mx-[10px] my-[30px] bg-white rounded-2xl'>
+            <div className='p-[20px] mx-[20px] my-[30px] bg-white rounded-2xl'>
 
                 <div className=' items-center pt-[20px]'>
-                    <div className='flex items-center gap-[10px] px-[10px] border border-gray-400 w-[40%] rounded-[10px] '>
+                    <div className='flex items-center gap-[10px] px-[10px] border border-gray-400 w-[30%] rounded-[10px] '>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                         </svg>
@@ -518,18 +517,19 @@ const Info = () => {
 
                 <table className='w-[100%] my-[20px]'>
                     <thead>
-                        <tr className=' text-[14px] text-center text-gray-600 bg-[#F5F7FA]'>
-                            <td className='p-[10px] rounded-l-2xl'>№</td>
-                            <td>Дата обращения</td>
-                            <td>Сумма</td>
-                            <td>Врач</td>
-                            <td>Специальность</td>
-                            <td>Скидка</td>
-                            <td>Начислено баллов</td>
-                            <td className='rounded-r-2xl'>Действие</td>
+                        <tr style={{fontFamily:"Gilroy-Ligght",fontSize:"13px"}} className=' text-[14px] text-center text-gray-600 bg-[#F5F7FA]'>
+                            <th className='p-[10px] rounded-l-2xl'>№</th>
+                            <th>Дата обращения</th>
+                            <th>Сумма</th>
+                            <th>Врач</th>
+                            <th>Специальность</th>
+                            <th>Диагноз</th>
+                            <th>Скидка</th>
+                            <th>Начислено баллов</th>
+                            <th className='rounded-r-2xl'>Действие</th>
                         </tr>
                     </thead>
-                    <tbody className='text-center font-extrabold text-[13px]'>
+                    <tbody style={{fontFamily:"Gilroy-ExtraBold",fontSize:"13px"}} className='text-center'>
                         <tr className='bg-white p-[20px]'> <td className='p-[10px]'></td></tr>
                         <tr className='bg-[#F5F7FA] rounded-2xl'>
                             <td className='py-[20px] px-[10px]  rounded-l-2xl'>131</td>
@@ -537,6 +537,7 @@ const Info = () => {
                             <td>500 с.</td>
                             <td>Духтуров Созкн</td>
                             <td>Спинолом</td>
+                            <td style={{fontFamily:"Montserrat-Medium",fontSize:"10px"}}>О03.02  Легочная недо...</td>
                             <td>300 с.</td>
                             <td>10 с.</td>
                             <td className="py-[20px] px-[10px] bg-[#F5F7FA] rounded-r-2xl overflow-hidden">
@@ -552,6 +553,7 @@ const Info = () => {
                             <td>500 с.</td>
                             <td>Духтуров Созкн</td>
                             <td>Спинолом</td>
+                              <td style={{fontFamily:"Montserrat-Medium",fontSize:"10px"}}>О03.02  Легочная недо...</td>
                             <td>300 с.</td>
                             <td>10 с.</td>
                             <td className="py-[20px] px-[10px] bg-[#F5F7FA] rounded-r-2xl overflow-hidden">
@@ -567,6 +569,7 @@ const Info = () => {
                             <td>500 с.</td>
                             <td>Духтуров Созкн</td>
                             <td>Спинолом</td>
+                              <td style={{fontFamily:"Montserrat-Medium",fontSize:"10px"}}>О03.02  Легочная недо...</td>
                             <td>300 с.</td>
                             <td>10 с.</td>
                             <td className="py-[20px] px-[10px] bg-[#F5F7FA] rounded-r-2xl overflow-hidden">
@@ -582,6 +585,7 @@ const Info = () => {
                             <td>500 с.</td>
                             <td>Духтуров Созкн</td>
                             <td>Спинолом</td>
+                              <td style={{fontFamily:"Montserrat-Medium",fontSize:"10px"}}>О03.02  Легочная недо...</td>
                             <td>300 с.</td>
                             <td>10 с.</td>
                             <td className="py-[20px] px-[10px] bg-[#F5F7FA] rounded-r-2xl overflow-hidden">
@@ -597,6 +601,7 @@ const Info = () => {
                             <td>500 с.</td>
                             <td>Духтуров Созкн</td>
                             <td>Спинолом</td>
+                              <td style={{fontFamily:"Montserrat-Medium",fontSize:"10px"}}>О03.02  Легочная недо...</td>
                             <td>300 с.</td>
                             <td>10 с.</td>
                             <td className="py-[20px] px-[10px] bg-[#F5F7FA] rounded-r-2xl overflow-hidden">

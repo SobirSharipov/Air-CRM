@@ -14,7 +14,7 @@ const Applyfields = () => {
     return (
         <div>
 
-            <div className='flex gap-[10px] font-light text-gray-600 items-center pt-[5px] px-[20px]'>
+            <div className='flex gap-[5px] font-light text-gray-600 items-center pt-[8px] px-[20px]'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
@@ -38,7 +38,7 @@ const Applyfields = () => {
             </div>
 
             <div className='flex justify-between items-center px-[30px] pt-[20px]'>
-                <p className='font-semibold text-[36px]'>Применение полей номеров</p>
+                <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "36px" }}>Применение полей номеров</p>
                 <div className='flex items-center gap-2'>
                     <Cog />
                     <button className='text-[#005456] cursor-pointer bg-white border border-gray-300 p-[5px] px-[10px] rounded'>
@@ -55,7 +55,7 @@ const Applyfields = () => {
                     <div
                         className="absolute inset-0 bg-black/10 bg-opacity-50 backdrop-blur-sm" ></div>
                     <div className="relative bg-white w-[40%] p-6 rounded-2xl shadow-2xl z-50 animate-fadeIn">
-                        <h2 className="text-xl font-bold text-gray-800 mb-4">Новый тариф</h2>
+                        <h2 style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className="text-xl font-bold text-gray-800 mb-4">Новый тариф</h2>
                         <TextField
                             label="Тариф"
                             variant="outlined"
@@ -79,8 +79,8 @@ const Applyfields = () => {
                 </div>
             )}
             <div className='bg-white p-[20px] rounded-2xl m-[20px]'>
-                <p className='font-semibold text-2xl mb-[20px]'>Редактировать тариф проживания</p>
-                <div className='flex gap-2'>
+                <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className='mb-[20px]'>Редактировать тариф проживания</p>
+                <div className='flex gap-4'>
                     <div className='w-[15%]'>
                         <TextField
                             select
@@ -141,7 +141,7 @@ const Applyfields = () => {
                     </div>
 
                 </div>
-                <div className='flex gap-2 font-semibold my-[20px]'>
+                <div style={{ fontFamily: "Montserrat-SemiBold", fontSize: "13px" }} className='flex gap-4 my-[20px]'>
                     <button onClick={() => setRate(true)} className='p-[10px] bg-[#1D272F1A] text-[#005456] rounded-[10px] w-full'>Создать новый тариф</button>
                     <button className='p-[10px] bg-[#005456] text-white rounded-[10px] w-full'>Сохранить</button>
                 </div>
@@ -152,7 +152,7 @@ const Applyfields = () => {
                     <div
                         className="absolute inset-0 bg-black/10 bg-opacity-50 backdrop-blur-sm"></div>
                     <div className="relative bg-white w-[40%] p-6 rounded-2xl shadow-2xl z-50 animate-fadeIn">
-                        <h2 className="text-xl font-bold text-gray-800 mb-4">Новый тип</h2>
+                        <h2 style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className="text-xl  text-gray-800 mb-4">Новый тип</h2>
                         <TextField
                             label="Тип номера"
                             variant="outlined"
@@ -164,7 +164,7 @@ const Applyfields = () => {
                                 "& input": { fontSize: "15px", padding: "8px" },
                             }}
                         />
-                        <div className="flex gap-3 mt-6">
+                        <div style={{ fontFamily: "Montserrat-SemiBold", fontSize: "13px" }} className="flex gap-4 mt-6">
                             <button onClick={() => setRoom(false)} className="px-4 py-2 w-full rounded-[10px] border border-gray-300 text-gray-700 hover:bg-gray-100 transition" >
                                 Отмена
                             </button>
@@ -176,8 +176,8 @@ const Applyfields = () => {
                 </div>
             )}
             <div className='bg-white p-[20px] rounded-2xl m-[20px]'>
-                <p className='font-semibold text-2xl my-[20px]'>Редактировать тип проживания</p>
-                <div className='flex gap-2'>
+                <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className='my-[20px]'>Редактировать тип проживания</p>
+                <div className='flex gap-4'>
                     <div className='w-[40%]'>
                         <TextField
                             select
@@ -210,7 +210,7 @@ const Applyfields = () => {
                     </div>
 
                 </div>
-                <div className='flex gap-2 font-semibold my-[20px]'>
+                <div style={{ fontFamily: "Montserrat-SemiBold", fontSize: "13px" }} className='flex gap-4 my-[20px]'>
                     <button onClick={() => setRoom(true)} className='p-[10px] bg-[#1D272F1A] text-[#005456] rounded-[10px] w-full'>Создать новый тип</button>
                     <button className='p-[10px] bg-[#005456] text-white rounded-[10px] w-full'>Сохранить</button>
                 </div>
@@ -221,7 +221,7 @@ const Applyfields = () => {
                     <div
                         className="absolute inset-0 bg-black/10 bg-opacity-50 backdrop-blur-sm" ></div>
                     <div className="relative bg-white w-[40%] p-6 rounded-2xl shadow-2xl z-50 animate-fadeIn">
-                        <h2 className="text-xl font-bold text-gray-800 mb-4">Новый тип кровати</h2>
+                        <h2 style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className="text-xl  text-gray-800 mb-4">Новый тип кровати</h2>
                         <TextField
                             label="Тип кровати"
                             variant="outlined"
@@ -233,7 +233,7 @@ const Applyfields = () => {
                                 "& input": { fontSize: "15px", padding: "8px" },
                             }}
                         />
-                        <div className="flex gap-3 mt-6">
+                        <div style={{ fontFamily: "Montserrat-SemiBold", fontSize: "13px" }} className="flex gap-3 mt-6">
                             <button onClick={() => setBed(false)} className="px-4 py-2 w-full rounded-[10px] border border-gray-300 text-gray-700 hover:bg-gray-100 transition" >
                                 Отмена
                             </button>
@@ -245,8 +245,8 @@ const Applyfields = () => {
                 </div>
             )}
             <div className='bg-white p-[20px] rounded-2xl m-[20px]'>
-                <p className='font-semibold text-2xl my-[20px]'>Редактировать тип кровати</p>
-                <div className='flex gap-2'>
+                <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className='my-[20px]'>Редактировать тип кровати</p>
+                <div className='flex gap-4'>
                     <div className='w-[40%]'>
                         <TextField
                             select
@@ -279,7 +279,7 @@ const Applyfields = () => {
                     </div>
 
                 </div>
-                <div className='flex gap-2 font-semibold my-[20px]'>
+                <div style={{ fontFamily: "Montserrat-SemiBold", fontSize: "13px" }} className='flex gap-4  my-[20px]'>
                     <button onClick={() => setBed(true)} className='p-[10px] bg-[#1D272F1A] text-[#005456] rounded-[10px] w-full'>Создать новый тип кровати </button>
                     <button className='p-[10px] bg-[#005456] text-white rounded-[10px] w-full'>Сохранить</button>
                 </div>
@@ -290,7 +290,7 @@ const Applyfields = () => {
                     <div
                         className="absolute inset-0 bg-black/10 bg-opacity-50 backdrop-blur-sm" ></div>
                     <div className="relative bg-white w-[40%] p-6 rounded-2xl shadow-2xl z-50 animate-fadeIn">
-                        <h2 className="text-xl font-bold text-gray-800 mb-4">Новый тип времени</h2>
+                        <h2 style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className=" text-gray-800 mb-4">Новый тип времени</h2>
                         <div className='mt-[20px]'>
                             <TextField
                                 label="Впишите название типа времени"
@@ -376,7 +376,7 @@ const Applyfields = () => {
                         )}
 
                         <button className='mt-[10px]' onClick={() => setData(!data)}>Указанное время будет ставиться для уборки</button>
-                        <div className="flex gap-3 mt-6">
+                        <div style={{ fontFamily: "Montserrat-SemiBold", fontSize: "13px" }} className="flex gap-3 mt-6">
                             <button onClick={() => setCleaning(false)} className="px-4 py-2 w-full rounded-[10px] border border-gray-300 text-gray-700 hover:bg-gray-100 transition" >
                                 Отмена
                             </button>
@@ -388,8 +388,8 @@ const Applyfields = () => {
                 </div>
             )}
             <div className='bg-white p-[20px] rounded-2xl m-[20px]'>
-                <p className='font-semibold text-2xl my-[20px]'>Редактировать тип хаускипинга (уборки) </p>
-                <div className='flex gap-2'>
+                <p style={{ fontFamily: "Montserrat-SemiBold", fontSize: "20px" }} className=' my-[20px]'>Редактировать тип хаускипинга (уборки) </p>
+                <div className='flex gap-4'>
                     <div className='w-[30%]'>
                         <TextField
                             select
@@ -435,7 +435,7 @@ const Applyfields = () => {
                     </div>
 
                 </div>
-                <div className='flex gap-2 font-semibold my-[20px]'>
+                <div style={{ fontFamily: "Montserrat-SemiBold", fontSize: "13px" }} className='flex gap-4  my-[20px]'>
                     <button onClick={() => setCleaning(true)} className='p-[10px] bg-[#1D272F1A] text-[#005456] rounded-[10px] w-full'>Создать тип уборки </button>
                     <button className='p-[10px] bg-[#005456] text-white rounded-[10px] w-full'>Сохранить</button>
                 </div>

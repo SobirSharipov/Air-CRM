@@ -10,8 +10,8 @@ const Patients = () => {
   return (
     <div>
 
-      <div className='flex justify-between items-center text-gray-500 px-[20px]'>
-        <div className='flex gap-[10px] items-center font-light pt-[5px] mb-[40px] '>
+      <div className='flex justify-between items-center text-gray-500 pb-[20px] px-[20px]'>
+        <div className='flex gap-[10px] items-center font-light'>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
             <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
           </svg>
@@ -28,12 +28,12 @@ const Patients = () => {
 
           <p>Все сделки</p>
         </div>
-        <div style={{fontFamily:"Montserrat-Light"}} className='flex items-center gap-[10px]'>
+        <div className='flex items-center font-light text-[13px] gap-[10px]'>
           <Link to={'/Newentry'}>
-            <button className='bg-[#005456] cursor-pointer text-white  p-[5px] px-[10px] rounded'>+ Новая запись</button>
+            <button className='bg-[#005456] cursor-pointer text-white  p-[10px] rounded-[8px]'>+ Новая запись</button>
           </Link>
           <Link to={'/Listpatients'}>
-            <button className='bg-[#E6EAED] hover:bg-[#dadde0] p-[5px] px-[10px] cursor-pointer  text-[#005456] rounded-[8px]'>Список пациентов</button>
+            <button className='bg-[#E6EAED] hover:bg-[#dadde0]  p-[10px] cursor-pointer  text-[#005456] rounded-[8px]'>Список пациентов</button>
           </Link>
           <button className='bg-[#005456] cursor-pointer text-white p-[5px] px-[10px] rounded'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -103,11 +103,11 @@ const Patients = () => {
         </div>
       </div>
 
-      <div style={{fontFamily:"Inter-SemiBold",size:"13px"}} className='flex  gap-2 bg-white py-[20px] px-[10px] mx-[20px] my-[20px] rounded-2xl'>
-        <button className='flex items-center gap-[10px] bg-[#005456] text-white p-[5px] px-[15px] rounded'>В очереди <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-        <button className='flex items-center gap-[10px] bg-[#C3DDFD] text-white p-[5px] px-[15px] rounded'>Принятые <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-        <button className='flex items-center gap-[10px] bg-[#FDE8E8] text-black p-[5px] px-[15px] rounded'>Не явились <span className='bg-white text-black px-[10px] rounded'>12</span></button>
-        <button className='flex items-center gap-[10px] bg-[#005456] text-white p-[5px] px-[15px] rounded'>Все <span className='bg-white text-black px-[10px] rounded'>12</span></button>
+      <div style={{ fontFamily: "Onest-SemiBold", fontSize: "13px" }} className='flex  gap-2 bg-white p-[20px] mx-[20px] my-[20px] rounded-2xl'>
+        <button className='flex items-center gap-[10px] bg-[#005456] text-white p-[5px] px-[15px] rounded-[5px]'>В очереди <span className='bg-white text-black px-[10px] rounded'>12</span></button>
+        <button className='flex items-center gap-[10px] bg-[#C3DDFD] text-white p-[5px] px-[15px] rounded-[5px]'>Принятые <span className='bg-white text-black px-[10px] rounded'>12</span></button>
+        <button className='flex items-center gap-[10px] bg-[#FDE8E8] text-black p-[5px] px-[15px] rounded-[5px]'>Не явились <span className='bg-white text-black px-[10px] rounded'>12</span></button>
+        <button className='flex items-center gap-[10px] bg-[#005456] text-white p-[5px] px-[15px] rounded-[5px]'>Все <span className='bg-white text-black px-[10px] rounded'>12</span></button>
       </div>
 
       <div className='bg-white m-[20px] rounded-2xl p-[20px]'>
@@ -117,7 +117,7 @@ const Patients = () => {
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
             </svg>
-            <input type="text" placeholder='Поиск' className='border-none outline-none p-[10px] rounded-lg w-full' />
+            <input type="text" placeholder='Поиск' className='border-none outline-none p-[8px] rounded-lg w-full' />
           </div>
           <div className='w-[15%]'>
             <TextField
@@ -125,7 +125,7 @@ const Patients = () => {
               label="Период"
               defaultValue="standard"
               size="small"
-               fullWidth
+              fullWidth
               sx={{
                 "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "45px" },
                 "& .MuiInputLabel-root": { fontSize: "13px" },
@@ -139,15 +139,15 @@ const Patients = () => {
 
         <table className='w-[100%] my-[20px] text-[13px]'>
           <thead >
-            <tr  style={{fontFamily:"Gilroy",size:"13px"}}  className='text-left  text-gray-600 bg-[#F5F7FA]'>
-              <td className='p-[15px] rounded-l-2xl'>№</td>
-              <td>Дата записи</td>
-              <td>ФИО пациента</td>
-              <td>Номер телефона</td>
-              <td>Статус оплаты</td>
-              <td>Статус</td>
-              <td>Действия</td>
-              <td className='rounded-r-2xl'>Прием</td>
+            <tr style={{ fontFamily: "Gilroy-Ligght", size: "13px" }} className='text-left  text-gray-600 bg-[#F5F7FA]'>
+              <th className='p-[15px] rounded-l-2xl'>№</th>
+              <th>Дата записи</th>
+              <th>ФИО пациента</th>
+              <th>Номер телефона</th>
+              <th>Статус оплаты</th>
+              <th>Статус</th>
+              <th>Действия</th>
+              <th className='rounded-r-2xl'>Прием</th>
             </tr>
           </thead>
           <tbody className='font-semibold'>
@@ -159,9 +159,21 @@ const Patients = () => {
               <td>+992 901 09 20 35</td>
               <td className='text-[#0E9F6E]'>25000 c.</td>
               <td>
-                <select  style={{fontFamily:"Montserrat-SemiBold",size:"11px"}}  className='bg-[#3F83F8] text-white p-[5px] rounded'>
-                  <option value="В ожидании">В ожидании</option>
-                </select>
+                <div className='w-[65%]'>
+                  <TextField
+                    select
+                    defaultValue="standard"
+                    size="small"
+                    fullWidth
+                    sx={{
+                      "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "30px", backgroundColor: "#3F83F8", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
+                      "& .MuiInputLabel-root": { fontSize: "11px" },
+                      "& input": { fontSize: "11px", padding: "8px" },
+                    }}
+                  >
+                    <MenuItem value="standard">В ожидании</MenuItem>
+                  </TextField>
+                </div>
               </td>
               <td className='text-green-700'>
                 <button className='bg-white p-2 rounded-full mr-2'>
@@ -187,9 +199,22 @@ const Patients = () => {
               <td>+992 901 09 20 35</td>
               <td className='text-[#F05252]'>25000 c.</td>
               <td>
-                <select style={{fontFamily:"Montserrat-SemiBold",size:"11px"}} className='bg-[#F05252] text-white p-[5px] rounded'>
-                  <option className='bg-[#F05252]' value="В ожидании">В ожидании</option>
-                </select>
+                <div className='w-[65%]'>
+                  <TextField
+                    select
+                    defaultValue="standard"
+                    size="small"
+                    fullWidth
+                    sx={{
+                      "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "30px", backgroundColor: "#F05252", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
+                      "& .MuiInputLabel-root": { fontSize: "11px" },
+                      "& input": { fontSize: "11px", padding: "8px" },
+                    }}
+                  >
+                    <MenuItem value="standard">В ожидании</MenuItem>
+                  </TextField>
+                </div>
+
               </td>
               <td className='text-green-700'>
                 <button className='bg-white p-2 rounded-full mr-2'>
@@ -215,9 +240,21 @@ const Patients = () => {
               <td>+992 901 09 20 35</td>
               <td className='text-[#0E9F6E]'>25000 c.</td>
               <td>
-                <select  style={{fontFamily:"Montserrat-SemiBold",size:"11px"}}  className='bg-[#0E9F6E] text-white p-[5px] rounded'>
-                  <option value="В ожидании">В ожидании</option>
-                </select>
+                <div className='w-[65%]'>
+                  <TextField
+                    select
+                    defaultValue="standard"
+                    size="small"
+                    fullWidth
+                    sx={{
+                      "& .MuiOutlinedInput-root": { borderRadius: "10px", height: "30px", backgroundColor: "#0E9F6E", color: "white", fontFamily: "Montserrat-SemiBold", fontSize: "11px", },
+                      "& .MuiInputLabel-root": { fontSize: "11px" },
+                      "& input": { fontSize: "11px", padding: "8px" },
+                    }}
+                  >
+                    <MenuItem value="standard">В ожидании</MenuItem>
+                  </TextField>
+                </div>
               </td>
               <td className='text-green-700'>
                 <button className='bg-white p-2 rounded-full mr-2'>
