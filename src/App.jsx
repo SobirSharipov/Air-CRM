@@ -11,9 +11,15 @@ import Editnumber from './app/Edit_number/Editnumber'
 import Applyplans from './app/Applyplans/Applyplans'
 import Applyfields from './app/Applyfields/Applyfields'
 import Listpatients from './app/Listpatients/Listpatients'
-import Newentry from './app/New entry/Newentry'
-import Info from './app/Info/info'
 import Newbooking from './app/New_booking/newbooking'
+import Companies from './app/Companies/companies'
+import Newentry from './app/New entry/Newentry'
+import Settings from './app/Settings/settings'
+import Services from './app/Services/services'
+import Finance from './app/Finance/finance'
+import Staff from './app/Staff/staff'
+import Store from './app/Store/store'
+import Info from './app/Info/info'
 
 const App = () => {
   return (
@@ -33,8 +39,12 @@ const App = () => {
           <Route path="Listpatients" element={<Listpatients />} />
           <Route path="Newentry" element={<Newentry />} />
           <Route path="Info" element={<Info />} />
-
-          
+          <Route path="Store" element={<Store />} />
+          <Route path="Services" element={<Services />} />
+          <Route path="Finance" element={<Finance />} />
+          <Route path="Companies" element={<Companies />} />
+          <Route path="Staff" element={<Staff />} />
+          <Route path="Settings" element={<Settings />} />
         </Route>
       </Routes>
     </div>
